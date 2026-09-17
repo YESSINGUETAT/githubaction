@@ -12,7 +12,7 @@ jobs:
       - name: print welcome
         run: echo "welcome"
       - name: checkout repo
-        uses: actions/checkout@4
+        uses: actions/checkout@v7.0.1
       - name: show files in the repo
         run: ls -la
         
